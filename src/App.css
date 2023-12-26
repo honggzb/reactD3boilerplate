@@ -1,0 +1,45 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  margin-top: 50px;
+  width: 600px;
+  height: 200px;
+  position:absolute;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  background: #e9e5e5;
+  padding: 5px;
+}
+
+ul li {
+  float: left;
+  text-align: center;
+  padding: 5px 10px;
+  font-size: large;
+  border-right: 2px solid #d5d2d2;
+}
+
+ul li:last-child {
+  border-right: 0 solid #d5d2d2;
+}
+
+ul li a { text-decoration: none; }
+ul li a:hover { color: red; }
+
+h2 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  color:rgb(101, 3, 3);
+}
