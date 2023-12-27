@@ -23,12 +23,12 @@ function Basic() {
       .attr("stroke", "red");
   }, [data]);
   return (
-    <React.Fragment>
+    <>
       <svg ref={svgRef}></svg>
       <br/>
       <button onClick={() => setData(data.map( value => value + 5))}>Update Data</button>
       <button onClick={() => setData(data.filter( value => value < 35))}>Filter Data</button>
-    </React.Fragment>
+    </>
   );
 }
 
