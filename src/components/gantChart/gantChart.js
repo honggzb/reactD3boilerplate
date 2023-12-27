@@ -320,11 +320,11 @@ function GantChart() {
   }, [data]);
 
   return (
-    <React.Fragment>
+    <>
       <h4 className={s.title}>Gantt Chart Process</h4>
       <svg ref={svgRef} className={s.gantsvg}></svg>
       <div id="tag"></div>
-    </React.Fragment>
+    </>
   );
 }
 
